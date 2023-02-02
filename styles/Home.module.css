@@ -8,25 +8,28 @@
 }
 
 .title a {
-  color: #0070f3;
+  /* color: #0070f3; */
+  color : white;
   text-decoration: none;
+  background-image: linear-gradient(to right,red, blue);
+  border-radius: 15px 15px 15px 15px;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color : white;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .title {
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
-}
-
-.title {
   text-align: center;
 }
+
 
 .title,
 .description {
